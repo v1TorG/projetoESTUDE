@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&family=Srisakdi:wght@400;700&display=swap');
+/*.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}*/
+:root{
+    --fonte01: "Passion One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+    --cor01: rgba(40, 95, 212, 0.575);
+    --cor02: black;
+    --cor03: white;
+}
+    
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: var(--cor02);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5vw;
+}
+
+header>h1{
+    padding-top: 30px;
+    font-family: var(--fonte01);
+    font-size: 4em;
+    text-shadow: 1px 1px var(--cor01);
+}
+header>h3{
+    padding-bottom: 30px;
+    font-family: var(--fonte01);
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-right: 5px;
+    line-height: 2em;
+    font-family: var(--fonte03);
+    font-size: 3.8vw
+}
+section.normal{
+    background-color: rgb(237, 255, 255);
+    color: var(--cor02);
+}
+section.normal > p > a{  
+    color: var(--cor02);
+}
+section.normal > p > a:hover{
+    color: var(--cor01);
+}
+
+section.imagem{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    background-attachment: fixed;
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(59, 106, 207, 0.425);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.849);
+}
+section#img01 {
+    background-image: url('../siteESTUDE/imgs/codigos.jpg');
+    background-position: center center;
+    
+}
+section#img02{
+    background-image: url('../siteESTUDE/imgs/estudo.jpg');
+    background-position: center center;
+}
+section > p > a{  
+    color: rgb(255, 255, 255);
+}
+section > p > a:hover{
+    color: var(--cor02);
+}
+
+footer{
+    background-color:var(--cor02);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+footer>p{
+    font-family: var(--fonte01);
+    letter-spacing: 0.5px;
+    font-size: 3.8vw
+}
+
+footer > p > a{  
+    color: rgb(255, 255, 255);
+}
+footer > p > a:hover{
+    color: var(--cor01);
+}
