@@ -93,12 +93,12 @@ section.imagem > p{
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.849);
 }
 section#img01 {
-    background-image: url('../siteESTUDE/imgs/codigos.jpg');
+    background-image: url('../projetoESTUDE/imgs/codigos.jpg');
     background-position: center center;
     
 }
 section#img02{
-    background-image: url('../siteESTUDE/imgs/estudo.jpg');
+    background-image: url('../projetoESTUDE/imgs/estudo.jpg');
     background-position: center center;
 }
 section > p > a{  
